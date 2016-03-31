@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+hr {
+    height: 1px;
+    background-color:#e3e1e1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.fndCabeceraDerechaOnline{
+	background-image: url(../images/img-cabecera.jpg);
+	background-repeat:no-repeat;
+	max-height:180px;
+	background-position:right top;
+	display:block;
+	height:180px;
+	
+}
+.videoProgramas{
+    margin:0;
+	background-color:#43b7ea;
+	padding:25px 5px;
+	padding-bottom:0px;
+	}
+.listaProgramas{
+	color:#1059a3;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:uppercase;
+}
+.list-group-item{
+	border:0px solid;
+	border-top:1px solid #ddd;
+    position: relative;
+    display: block;
+    padding: 5px 7px;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.list-group-item-text{
+	color:#aba7a7;
+	font-size:12px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.img-rounded{
+	margin-right:8px;	
+}
+.leerNota{
+	color:#e92808;
+	font-size:12px;
+	font-weight:normal;
+	background-color:#f5f5f5;
+	padding:4px;
+	margin-top:4px;
+}
+.bloqueTresPasos{
+    margin:0;
+	background-color:#ffffff;
+	padding:25px 5px;
+	padding-bottom:0px;
+	}
+.tresPasos{
+	color:#ff7701;
+	font-family:Arial, sans-serif;
+	font-size:30px;
+	padding:10px 0 0 0;
+	margin:0 0 0 0;
+	letter-spacing: -1px;
+	border-top:1px solid #e3e1e1;
+	}
+.tresPasos span{
+	font-family:Arial, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+.panel-paso1 {
+  border-color: #0272ad;
+}
+.panel-paso1 > .panel-heading {
+  color: #fff;
+  background-color: #0272ad;
+  border-color: #0272ad;
+}
+
+.paso1{
+	background-color:#0097fb;
+}
+ 

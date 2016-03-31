@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background: #ecedf3 url(../images/bg-image-pagina-online.jpg) repeat-y 50% 0;
+}
+hr {
+    height: 1px;
+    background-color:#e3e1e1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.fndCabeceraDerechaOnline{
+	background-image: url(../images/img-cabecera.jpg);
+	background-repeat:no-repeat;
+	max-height:180px;
+	background-position:right top;
+	display:block;
+	height:180px;
+	
+}
+.videoProgramas{
+    margin:0;
+	background-color:#43b7ea;
+	padding:25px 5px;
+	padding-bottom:0px;
+	}
+.videoSpacio{
+	margin-bottom:15px;
+	}
+.listaProgramas{
+	color:#1059a3;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:uppercase;
+}
+.ultimasPubli{
+	color:#fff;
+	font-family:'Roboto', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:2px;
+	line-height:1.1;
+}
+.list-group-item{
+	border:0px solid;
+	border-top:1px solid #ddd;
+    position: relative;
+    display: block;
+    padding: 5px 7px;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.list-group-item-text{
+	color:#aba7a7;
+	font-size:12px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.list-group-item-ultimasPubli {
+    border: 0px solid;
+    position: relative;
+    display: block;
+    padding: 0px 0px;
+    margin-bottom: -1px;
+    background:none;
+}
+a.list-group-item-ultimasPubli:hover{
+	color:#fff;
+}
+.txtUltimasPubli{
+	color:#fff;
+	font-size:11px;
+}
+.imgPubliPadding{
+	padding-right:0px;
+}
+.txtPubliPadding{
+	padding-left:10px;
+}
+.datosUltimasPubli{
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.datosUltimasPubli, .datosUltimasPubli a{
+	font-size:11px;
+	color:#ffc600;
+}
+.img-rounded{
+	margin-right:8px;	
+}
+.leerNota{
+	color:#e92808;
+	font-size:12px;
+	font-weight:normal;
+	background-color:#f5f5f5;
+	padding:4px;
+	margin-top:4px;
+}
+.bloqueTresPasos, .bgBlanco{
+    margin:0;
+	background-color:#ffffff;
+	padding:25px 5px;
+	padding-bottom:0px;
+	}
+.tresPasos{
+	color:#ff7701;
+	font-family:Arial, sans-serif;
+	font-size:30px;
+	padding:10px 0 0 0;
+	margin:0 0 0 0;
+	letter-spacing: -1px;
+	border-top:1px solid #e3e1e1;
+	}
+.tresPasos span{
+	font-family:Arial, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+.panel-paso1 {
+  border-color: #0272ad;
+  border:0px solid;
+}
+.panel-paso1 > .panel-heading {
+  color: #fff;
+  background-color: #0272ad;
+  border-color: #0272ad;
+  height:23px;
+}
+
+.paso1{
+	background-color:#0097fb;
+	color:#fff;
+}
+
+.panel-paso2 {
+  border-color: #d56301;
+  border:0px solid;
+}
+.panel-paso2 > .panel-heading {
+  color: #fff;
+  background-color: #d56301;
+  border-color: #d56301;
+  height:23px;
+}
+
+.paso2{
+	background-color:#e99f10;
+	color:#fff;
+}
+
+.panel-paso3 {
+  border-color: #c70402;
+  border:0px solid;
+}
+.panel-paso3 > .panel-heading {
+  color: #fff;
+  background-color: #c70402;
+  border-color: #c70402;
+  height:23px;
+}
+
+.paso3{
+	background-color:#eb190c;
+	color:#fff;
+}
+ 
+ .paso1, .paso2, .paso3{
+	padding:72px 0; 
+ }
+ .footerOnline{
+	background-color:#1059a3;
+	padding-bottom:0em;
+	color:#fff;
+ }
+ .footerTitulo{
+	 font-size:16px;
+	 font-weight:bold;
+	 margin-bottom:30px;
+ }
+ .espacioFooter{
+	 padding-top:10px;
+ }
+ .footerFooter{
+	 background-color:#0e5092;
+	 color:#fff;
+	 margin:0;
+	 
+	 padding-top:20px;
+	 padding-bottom:5px;
+ }
+ 
+ .cuadroBoletin, .txtBoletin{
+	 color:#fff;
+ }
+ .txtBoletin{
+	 font-weight:500;
+ }
+ .txtCuadroBoletin{
+	 font-size:12px;
+ }
+ .testimoniosFooter{
+	 margin-bottom:30px;
+ }
+ .nombreTestimonio{
+	 color:#fff;
+	font-family:'Roboto', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:10px;
+	line-height:0.60;
+ }
+ .img-responsive{
+	 display:inline !important;
+ }
+ .bloqueCeleste{
+	 background-color:#43b8ed;
+	 color:#fff;
+	 font-size:14px;
+	 padding:13px;
+	 font-weight:300;
+	 margin:0;
+ }
+ .cuadroNutricionista{
+	 padding:15px 10px;
+	 text-align:justify;
+	 color:#666 !;
+	 font-family:'Roboto';
+ }
+ .cuadroNutricionista p {
+	 color:#666;
+ }
+ /* borderless table */
+.table.table-borderless td, .table.table-borderless th {
+    border: 0 !important;
+}
+
+.table.table-borderless {
+    margin-bottom: 0px;
+}
+
+/*Seccion preguntas frecuentes */
+.faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+ @media (max-width: 6400px) {
+	.paso1, .paso2, .paso3{
+	padding:12px 0; 
+ }
+}
